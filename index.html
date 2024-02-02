@@ -1,54 +1,29 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-  <meta charset='UTF-8'>
-  <title></title>
+  <meta charset="UTF-8">
+  <title>Flexbox-course</title>
   <style>
-    body {
-      margin: 0;
-      padding: 0;
+    body{
+      background-color: lightgray;
+      color: white;
     }
-    .container {
-      margin: 0;
-      height: calc(100vh - 20px);
-      width: calc(100vw - 20px);
-      border: 10px solid red;
+
+    .theme a{
       display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .blocks {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 1000px;
-    }
-    .block {
-      background-color:cadetblue;
-      height: 200px;
-      margin: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .block1 {
-      flex-basis: 400px;
-    }
-    .block2 {
-      flex-basis: 100px;
-    }
-    .block3 {
-      flex-basis: 200px;
+      padding: 30px;
+      text-decoration: none;
+      color: blue;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="blocks">
-      <div class="block block1">1</div>
-      <div class="block block2">2</div>
-      <div class="block block3">3</div>
+  <div class="main">
+    <div class="theme">
+      <a href="library/flexwrap.html" alt="">Flex wrap</a>
     </div>
+
   </div>
+  
 </body>
 </html>
